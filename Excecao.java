@@ -2,7 +2,7 @@ package poo2;
 
 import java.util.Scanner;
 
-public class Excecao {
+public class Farmacia {
 
 	static Scanner ler = new Scanner(System.in);
 	public static void main(String[] args) {
@@ -13,6 +13,7 @@ public class Excecao {
 		int ml = 0;
 		int resul = 0;
 		
+		while(true) {
 		try {
 		System.out.println("Digite a quantidade do medicamento: ");
 		quantidadeRemedio = ler.nextInt();
@@ -31,6 +32,6 @@ public class Excecao {
 			
 			
 			}
-			}
-
-}
+			
+		}
+}}
