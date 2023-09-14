@@ -66,9 +66,14 @@ public class Cliente {
 			// TODO Auto-generated method stub
 				
 		}
-	
-			
-		
+		public void visualizar() {
+		System.out.println("********************Cliente********************");
+		System.out.println("Nome: " + this.nome);
+	        System.out.println("Sobrenome: " + this.sobrenome);
+      	        System.out.println("Idade: " + this.idade);
+		System.out.println("Peso: " + this.peso);
+	        System.out.println("Altura: " + this.altura);
+		System.out.println("***********************************************");
 			
 		}
 		
